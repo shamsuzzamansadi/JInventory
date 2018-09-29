@@ -5,4 +5,4 @@ sales information. It also records the stock currently available in the store.
   The only difference between the two users is that the administrator can also view sales report and can also manage other users.
 
 
-Download full documentation for free: https://www.scribd.com/doc/296989740/InventoryManagementSystem-Sajan-Rajbhandari
+
