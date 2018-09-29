@@ -244,6 +244,7 @@ public class LoginDialog extends javax.swing.JDialog {
 
         /* Create and display the dialog */
         java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
             public void run() {
                 LoginDialog dialog = new LoginDialog();
                 dialog.addWindowListener(new java.awt.event.WindowAdapter() {
