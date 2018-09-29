@@ -185,7 +185,7 @@ public class LoginDialog extends javax.swing.JDialog {
     String user;
     private void loginBttnMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginBttnMouseClicked
         String username=usernameTxt.getText();
-        String p=passwordTxt.getText();
+        String p = new String(passwordTxt.getPassword());
         String password=encryptPassword(p);
         user=(String)comboBox.getSelectedItem();
         
