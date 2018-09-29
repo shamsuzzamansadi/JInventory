@@ -1,4 +1,4 @@
-# InventoryManagementSystem
+# JInventory
 A software developed using Java SE which provides as easy way to track the products, suppliers, customers as well as purchase and
 sales information. It also records the stock currently available in the store. 
   There are basically two users, Administrator and Normal User. Both the users can manage suppliers, products, customers and purchase and sell products.
