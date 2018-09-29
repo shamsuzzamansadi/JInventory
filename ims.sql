@@ -61,7 +61,7 @@ CREATE TABLE `customers` (
 --
 
 INSERT INTO `customers` (`cid`, `customercode`, `fullname`, `location`, `phone`) VALUES
-(2, 'cus3', 'ram', 'ktm', '331');
+(2, 'cus3', 'Kay', 'Kiel', '331');
 
 -- --------------------------------------------------------
 
@@ -138,8 +138,8 @@ CREATE TABLE `salesreport` (
 
 INSERT INTO `salesreport` (`salesid`, `date`, `productcode`, `customercode`, `quantity`, `revenue`, `soldby`) VALUES
 (1, 'Fri Jan 16 23:12:40 NPT 2015', 'prod2', 'cus3', 4, 120, 'user4'),
-(2, 'Thu Jan 08 21:30:51 NPT 2015', 'prod1', 'cus3', 5, 2250, 'sazanrjb'),
-(3, 'Thu Jan 15 21:26:47 NPT 2015', 'prod1', 'cus3', 5, 2250, 'sazanrjb'),
+(2, 'Thu Jan 08 21:30:51 NPT 2015', 'prod1', 'cus3', 5, 2250, 'sadi'),
+(3, 'Thu Jan 15 21:26:47 NPT 2015', 'prod1', 'cus3', 5, 2250, 'sadi'),
 (4, 'Sat Jan 17 10:08:20 NPT 2015', 'prod3', 'cus3', 1, 2, 'user4');
 
 -- --------------------------------------------------------
@@ -161,7 +161,7 @@ CREATE TABLE `suppliers` (
 --
 
 INSERT INTO `suppliers` (`sid`, `suppliercode`, `fullname`, `location`, `phone`) VALUES
-(69, 'sup5', 'manish', 'ktm', '4123372'),
+(69, 'sup5', 'david', 'ktm', '4123372'),
 (68, 'sup4', 'sia', 'US', '11623231');
 
 -- --------------------------------------------------------
@@ -185,9 +185,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `fullname`, `location`, `phone`, `username`, `password`, `category`) VALUES
-(54, 'Sajan Rajbhandari', 'Pokhara', '9849284991', 'user4', 'cc03e747a6afbbcbf8be7668acfebee5', 'ADMINISTRATOR'),
-(56, 'Ram', 'Kathmandu', '9849284991', 'user5', 'a791842f52a0acfbb3a783378c066b8', 'NORMAL USER'),
-(57, 'shyam', 'ktm', '98239832', 'user6', 'affec3b64cf90492377a8114c86fc093', 'NORMAL USER');
+(54, 'Sadi', 'kiel', '9849284991', 'user4', 'cc03e747a6afbbcbf8be7668acfebee5', 'ADMINISTRATOR'),
+(56, 'Richard', 'Hamburg', '9849284991', 'user5', 'a791842f52a0acfbb3a783378c066b8', 'NORMAL USER'),
+(57, 'Kay', 'Kiel', '98239832', 'user6', 'affec3b64cf90492377a8114c86fc093', 'NORMAL USER');
 
 --
 -- Indexes for dumped tables
