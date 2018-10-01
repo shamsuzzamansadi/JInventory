@@ -7,6 +7,7 @@
 package com.inventory.ui;
 
 import com.inventory.database.ConnectionFactory;
+import java.awt.event.KeyEvent;
 import java.math.BigInteger;
 import java.security.MessageDigest;
 import javax.swing.JOptionPane;
@@ -204,9 +205,8 @@ public class LoginDialog extends javax.swing.JDialog {
         usernameTxt.setText("");
         passwordTxt.setText("");
     }//GEN-LAST:event_clearBttnMouseClicked
-
     private void loginBttnKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_loginBttnKeyPressed
-
+        //       do something
     }//GEN-LAST:event_loginBttnKeyPressed
 
     private void passwordTxtKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_passwordTxtKeyTyped
