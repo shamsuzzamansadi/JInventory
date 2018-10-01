@@ -187,7 +187,9 @@ public class LoginDialog extends javax.swing.JDialog {
         String username=usernameTxt.getText();
         String p = new String(passwordTxt.getPassword());
         String password=encryptPassword(p);
+
         user=(String)comboBox.getSelectedItem();
+        System.out.print(password);
         
         if(new ConnectionFactory().checkLogin(username,password,user)==true){
             dispose();
