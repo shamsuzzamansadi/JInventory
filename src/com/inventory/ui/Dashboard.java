@@ -65,7 +65,7 @@ public class Dashboard extends javax.swing.JFrame {
         Toolkit theKit = getToolkit();
         Dimension dim = theKit.getScreenSize();
         setSize(dim);
-        setTitle("Inventory Management System");
+        setTitle("JInventory");
         setLocationRelativeTo(null);
         setVisible(true);
     }
